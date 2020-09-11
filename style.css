@@ -1,0 +1,110 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.heading
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #000;
+}
+
+.heading h1
+{
+	margin: 0;
+	padding: 0;
+	font-size: 110px;
+}
+
+.heading:first-child
+{
+	background: url(7.jpg);
+	background-size: cover;
+}
+
+.heading:last-child
+{
+	background: url(1.jpg);
+	background-size: cover;
+}
+
+section
+{
+	height: auto;
+	display: flex;
+}
+
+section .imgAx
+{
+	position: sticky;
+	top: 0;
+	min-width: 49.5%;
+	background: #000;
+	height: 119vh;
+}
+
+.imgAx img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+section .imgCx
+{
+	position: sticky;
+	top: 0;
+	min-width: 50.%;
+	background: #000;
+    height: 129vh;
+}
+
+section .imgDx
+{
+	position: sticky;
+	top: 0;
+	min-width: 50%;
+	background: #000;
+	height: 134.5vh;
+}
+.imgDx img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100.5%;
+	height: 100%;
+}
+section .imgBx
+{
+	position: sticky;
+	top: 0;
+	min-width: 49.%;
+	background: #000;
+	height: 109.5vh;
+}
+
+
+section .storyBx
+{
+	padding: 60px;
+}
+
+.storyBx h2
+{
+	margin: 0 0 20px;
+	padding: 0;
+	font-size: 60px;
+}
+
+.storyBx p
+{
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	text-align: justify;
+}
